@@ -1,7 +1,7 @@
 # Asynchronous ϵ-Greedy Bayesian Optimisation
 
 This repository contains the Python3 code for the experiments and results presented in:
-<<<<<<< HEAD
+
 > George De Ath, Richard M. Everson, and Jonathan E. Fieldsend. Asynchronous ϵ-Greedy Bayesian Optimisation. Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence (UAI), 2021. (to appear) </br>
 > **Paper**: (to appear)</br>
 > **Preprint**: <https://arxiv.org/abs/2010.07615>
@@ -116,10 +116,3 @@ The initial training locations for each of the 51 sets of
 ## Optimisation results
 
 The results of all optimisation runs can be found in the `results` directory (after results.zip has been expanded). The notebook [AEGiS_results.ipynb](AEGiS_results.ipynb) shows how to a load all the experimental data and to subsequently plot it.
-=======
-> George De Ath, Richard M. Everson, and Jonathan E. Fieldsend.  Asynchronous ϵ-Greedy Bayesian Optimisation. Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence (UAI), 2021. (to appear) </br>
-> **Paper**: (to appear)</br>
-> **Preprint**: <https://arxiv.org/abs/2010.07615>
-
-Code to be released by the end of July.
->>>>>>> a75a2cf9a192b4fb2bfc415ceb4d36ad2be4d7be

@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Exclude machine-specific vs code settings
+.vscode
+
+# results directory (include zipped version instead)
+# because git is not that happy with 175k files in one directory
+results/
