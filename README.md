@@ -5,4 +5,4 @@ This repository contains the Python3 code for the experiments and results presen
 > **Paper**: (to appear)</br>
 > **Preprint**: <https://arxiv.org/abs/2010.07615>
 
-Note: Code will be released before the [conference](https://www.auai.org/uai2021/) in July.
+Code to be released by the end of July.
