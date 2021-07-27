@@ -11,10 +11,9 @@ the optimisation runs carried out, the optimisation results of each of the
 runs, and jupyter notebooks to generate the results, figures and tables in the
 paper.
 
-Notes:
-
-- The results directory is zipped (results.zip) and will need unpacking before results can be processed.
-- If you would like help running experiments or just have questions about how the code works, please open an [issue](https://github.com/georgedeath/aegis/issues) and we will do our best to offer help and advice.
+If you would like help running experiments or just have questions about how the
+code works, please open an [issue](https://github.com/georgedeath/aegis/issues)
+and we will do our best to offer help and advice.
 
 ## Citation
 
@@ -115,4 +114,6 @@ The initial training locations for each of the 51 sets of
 
 ## Optimisation results
 
-The results of all optimisation runs can be found in the `results` directory (after results.zip has been expanded). The notebook [AEGiS_results.ipynb](AEGiS_results.ipynb) shows how to a load all the experimental data and to subsequently plot it.
+The results of all optimisation runs can be found in the `results` directory.
+The notebook [AEGiS_results.ipynb](AEGiS_results.ipynb) shows how to a load all
+the experimental data and to subsequently plot it.
