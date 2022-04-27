@@ -2,9 +2,8 @@
 
 This repository contains the Python3 code for the experiments and results presented in:
 
-> George De Ath, Richard M. Everson, and Jonathan E. Fieldsend. Asynchronous ϵ-Greedy Bayesian Optimisation. Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence (UAI), 2021. (to appear) </br>
-> **Paper**: (to appear)</br>
-> **Preprint**: <https://arxiv.org/abs/2010.07615>
+> George De Ath, Richard M. Everson, and Jonathan E. Fieldsend. Asynchronous ϵ-Greedy Bayesian Optimisation. Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence, PMLR 161:578-588, 2021. </br>
+> **Paper**: https://proceedings.mlr.press/v161/de-ath21a.html
 
 The repository also contains all training data used for the initialisation of
 the optimisation runs carried out, the optimisation results of each of the
@@ -24,8 +23,13 @@ If you use any part of this code in your work, please cite:
     title={Asynchronous ϵ-Greedy Bayesian Optimisation},
     author = {George {De Ath} and Richard M. Everson and Jonathan E. Fieldsend},
     year = {2021},
-    booktitle = {Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence (UAI)},
-    % rest of the citation to follow once the proceedings appear online
+    booktitle = {Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence},
+    pages = {578--588},
+    year = {2021},
+    editor = {de Campos, Cassio and Maathuis, Marloes H.},
+    volume = {161},
+    series = {Proceedings of Machine Learning Research},
+    month = {27--30 Jul},
 }
 ```
 
