@@ -13,7 +13,7 @@ class GP_FixedNoise(gpytorch.models.ExactGP, GPyTorchModel):
     ):
 
         likelihood = gpytorch.likelihoods.FixedNoiseGaussianLikelihood(
-            torch.full_like(train_y, noise_size)
+            torch.full((train_y.shape[0],), noise_size)
         )
         super(GP_FixedNoise, self).__init__(train_x, train_y, likelihood)
 
@@ -23,7 +23,8 @@ class GP_FixedNoise(gpytorch.models.ExactGP, GPyTorchModel):
             ard_num_dims=train_x.shape[-1] if ARD else None,
         )
         self.covar_module = gpytorch.kernels.ScaleKernel(
-            base_kernel, outputscale_prior=os_prior,
+            base_kernel,
+            outputscale_prior=os_prior,
         )
         self.mean_module = gpytorch.means.ZeroMean()
 
