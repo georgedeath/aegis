@@ -33,17 +33,22 @@ If you use any part of this code in your work, please cite:
 }
 ```
 
-## Core packages
+## Installation Instructions
 
-- Profet benchmark:
-  - `pip install pybnn`
-  - `pip install git+https://github.com/amzn/emukit`
+```script
+> git clone https://github.com/georgedeath/aegis
+> cd aegis
+> conda create -n aegis python=3.7 numpy matplotlib scipy statsmodels tqdm docopt
+> conda activate aegis
+> conda install pytorch cpuonly botorch pytorch -c pytorch -c gpytorch
+> pip install pyDOE2 pygmo==2.13.0 pygame box2d-py
+```
 
-- Standard packages:
-  - numpy, matplotlib, scipy, statsmodels, torch, gpytorch, botorch, pyDOE2,
-    [pygmo2](https://esa.github.io/pygmo2/install.html),
-    [pygame](https://www.pygame.org/wiki/GettingStarted),
-    [box2d-py](https://pypi.org/project/box2d-py/).
+- Profet benchmark (optional):
+```script
+> pip install pybnn
+> pip install git+https://github.com/amzn/emukit
+```
 
 ## Reproduction of experiments
 
@@ -52,6 +57,7 @@ individual experimental evaluation carried out the paper. It has the following
 syntax:
 
 ```script
+> conda activate aegis
 > python run_exp.py --help
 Usage:
     run_exp.py <problem_name> <run_no> <budget> <n_workers> <method> <time_function>
